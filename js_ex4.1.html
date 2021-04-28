@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+        <head>
+                <title>JavaScript Ex 4.1</title>
+		<meta charset="UTF-8">
+		<!-- Test JavaScript -->
+		<noscript>Your browser does not support Javascript.</noscript>
+                <!-- Import our JavaScript file -->
+                <script type="text/javascript" src="js_ex4.1.js" async></script>
+	</head>
+        <body>
+                <h1>Exo 4.1</h1>
+		<form onsubmit="formTreatement('data_input','number1','number2')" action="" method="post" name="data_input" id="data_input">
+			<fieldset >
+				<legend>Entrer 2 nombres</legend>
+				<ol>
+					<li>
+						<label for="nombre 1">Number 1 :</label>
+						<input type="number" id="number1" name="number1" placeholder="number1" required>
+					</li>
+					<li>
+						<label for="nombre 2">Number 2 :</label>
+                  <input type="number" id="number2" name="number2" placeholder="number2" required>
+					</li>
+				</ol>
+			</fieldset>
+			<input type="submit" value="Go !">
+		</form>
+		<!--
+		<p>The output element below is outside the form, but still a part of it.</p>
+		<output form="data_input" id="x" name="x" for="number1+number2"></output>
+		-->
+      </body>
+</html>
